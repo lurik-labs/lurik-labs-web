@@ -1,0 +1,77 @@
+@import "variables.scss";
+
+header.masthead {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/academy/academy_banner.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+.discord-btn {
+  margin-top: 10px;
+  color: white;
+  background: $gray-900;
+  display: inline-block;
+  border: $gray-400;
+  padding: 10px 50px;
+  transition: 0.12s;
+
+  &:hover {
+    background: $primary;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.unity-box {
+  margin-top: 40px;
+
+  .unity-btn {
+    color: white;
+    background: $gray-900;
+    line-height: 1.75;
+    border: $gray-400;
+    padding: 15px 20px;
+    transition: 0.12s;
+
+    &:nth-child(1) {
+      background: $gray-800;
+    }
+
+    &:hover {
+      background: $primary;
+      text-decoration: none;
+    }
+  }
+}
+
+.promo-code {
+  margin-top: 50px;
+
+  .coupon {
+    font-weight: bold;
+    text-transform: uppercase;  
+    background: $white;
+    padding: 10px 20px;
+    border: 3px dashed $primary;
+    margin-left: 20px;
+  }
+}
+
+.invite {
+  margin-top: 40px;
+  color: white;
+  background: $gray-900;
+  line-height: 1.75;
+  border: $gray-400;
+  padding: 20px 20px;
+  transition: 0.12s;
+
+  &:hover {
+    background: $primary;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+

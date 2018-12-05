@@ -1,0 +1,69 @@
+header.masthead {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/academy/academy_banner.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+.discord-btn {
+  margin-top: 10px;
+  color: white;
+  background: #212529;
+  display: inline-block;
+  border: #ced4da;
+  padding: 10px 50px;
+  transition: 0.12s;
+}
+.discord-btn:hover {
+  background: #79B473;
+  text-decoration: none;
+  color: white;
+}
+
+.unity-box {
+  margin-top: 40px;
+}
+.unity-box .unity-btn {
+  color: white;
+  background: #212529;
+  line-height: 1.75;
+  border: #ced4da;
+  padding: 15px 20px;
+  transition: 0.12s;
+}
+.unity-box .unity-btn:nth-child(1) {
+  background: #343a40;
+}
+.unity-box .unity-btn:hover {
+  background: #79B473;
+  text-decoration: none;
+}
+
+.promo-code {
+  margin-top: 50px;
+}
+.promo-code .coupon {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 10px 20px;
+  border: 3px dashed #79B473;
+  margin-left: 20px;
+}
+
+.invite {
+  margin-top: 40px;
+  color: white;
+  background: #212529;
+  line-height: 1.75;
+  border: #ced4da;
+  padding: 20px 20px;
+  transition: 0.12s;
+}
+.invite:hover {
+  background: #79B473;
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=academy.css.map */

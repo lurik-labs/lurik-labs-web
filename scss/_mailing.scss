@@ -1,0 +1,27 @@
+section#mailing-list {
+    color: white;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/academy/about.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 30%;
+
+    .subscribe-btn {
+        margin-top: 40px;
+        display:inline-block;
+        background: rgba(0,0,0,0.3);
+        border: 1px solid $primary;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 15px 60px;
+        transition: all 0.3s;
+
+        &:hover {
+            background: rgba(0,0,0,1);
+            padding: 15px 100px;
+            text-decoration: none;
+        }
+    }
+}

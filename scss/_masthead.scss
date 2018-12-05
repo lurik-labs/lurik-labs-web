@@ -2,8 +2,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  // background-image: url('../img/header-bg.jpg');
-  background-color: #222222;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
