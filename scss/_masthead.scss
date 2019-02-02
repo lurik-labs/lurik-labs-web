@@ -7,9 +7,18 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -17,6 +26,7 @@ header.masthead {
       margin-bottom: 25px;
       @include serif-font;
     }
+
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -26,11 +36,13 @@ header.masthead {
     }
   }
 }
+
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
+
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -38,6 +50,7 @@ header.masthead {
         margin-bottom: 25px;
         @include serif-font;
       }
+
       .intro-heading {
         font-size: 75px;
         font-weight: 700;
