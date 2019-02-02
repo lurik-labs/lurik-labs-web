@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 header.masthead {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/academy/academy_banner.jpg);
+  background: linear-gradient(155deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(155deg, rgba(0, 169, 157, 0.7), rgba(173, 75, 255, 0.7)), url(../img/academy/academy_banner.jpg);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: center;
@@ -48,13 +48,21 @@ header.masthead {
 .promo-code {
   margin-top: 50px;
 
-  .coupon {
+  #coupon {
     font-weight: bold;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     background: $white;
     padding: 10px 20px;
     border: 3px dashed $primary;
     margin-left: 20px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
   }
 }
 
@@ -73,5 +81,3 @@ header.masthead {
     color: white;
   }
 }
-
-
