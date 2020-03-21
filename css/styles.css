@@ -164,7 +164,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -403,7 +403,7 @@ header.masthead .intro-text .intro-heading {
 
 section#mailing-list {
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/academy/about.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-size: cover;
   background-position-x: center;
   background-position-y: 30%;
