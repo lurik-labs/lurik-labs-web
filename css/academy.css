@@ -1,5 +1,5 @@
 header.masthead {
-  background: linear-gradient(155deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(155deg, rgba(0, 169, 157, 0.7), rgba(173, 75, 255, 0.7)), url(../img/academy/academy_banner.jpg);
+  background: linear-gradient(155deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(155deg, rgba(0, 169, 157, 0.7), rgba(173, 75, 255, 0.7));
   background-size: cover;
   background-position-x: 50%;
   background-position-y: center;
